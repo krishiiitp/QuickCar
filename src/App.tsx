@@ -1,5 +1,11 @@
+import Navbar from './Navbar.tsx';
+
 function App() {
-  return <h1 className="bg-orange-400">CarPooling: QuickCar</h1>;
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
 }
 
 export default App;
